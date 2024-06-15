@@ -1,12 +1,6 @@
-header {
-    
-}
-
-header img {
-    width: 7%;
-    max-width: 135px;
-}
-
-footer {
-    
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }

@@ -1,0 +1,31 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: var(--blue);
+    transition: 0.5s;
+}
+
+header .logo span {
+    color: var(--light-blue);
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+}
+
+header .navbar {
+    
+}

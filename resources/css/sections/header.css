@@ -26,6 +26,14 @@ header .logo:hover {
     transform: scale(1.2);
 }
 
-header .navbar {
+header .navbar a {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color: var(--blue);
+    transition: 0.5s;
+}
+
+header .navbar a:hover {
+    color: var(--light-blue);
     
 }

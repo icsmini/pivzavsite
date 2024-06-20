@@ -15,7 +15,7 @@
     --blue: #0663a2;
     --light-blue: #28a3f7;
     --gradient: linear-gradient(45deg, var(--blue), var(--light-blue));
-    --box-shadow: 0.5rem 1rem rgba(0,0,0,0.5);
+    --box-shadow: 0.5rem 0.24rem rgba(0,0,0,0.5);
 }
 
 html {

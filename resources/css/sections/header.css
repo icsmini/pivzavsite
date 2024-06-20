@@ -37,6 +37,6 @@ header .navbar a:hover {
     color: var(--light-blue);
 }
 
-header input {
+header .header-checkbox {
     display: none;
 }

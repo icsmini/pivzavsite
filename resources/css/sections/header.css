@@ -31,6 +31,7 @@ header .navbar a {
     margin-left: 2rem;
     color: var(--blue);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 header .navbar a:hover {
@@ -39,4 +40,54 @@ header .navbar a:hover {
 
 header .header-checkbox {
     display: none;
+}
+
+header label {
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+
+    }
+}
+
+@media (max-width: 880px) {
+    header label {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        background: #fff;
+        padding: 1rem 2rem;
+        border-top: 1rem solid rgba(0,0,0,0.1);
+        box-shadow: var(--box-shadow);
+        transform-origin: top;
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    header .navbar a {
+        display: block;
+        margin: 2rem 0;
+        font-size: 1.8rem;
+    }
+
+    header input:checked ~ .navbar {
+        transform: scale(1);
+        opacity: 1;
+    }
 }

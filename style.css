@@ -12,9 +12,9 @@
 }
 
 :root {
-    --blue: #0663a2;
-    --light-blue: #28a3f7;
-    --gradient: linear-gradient(45deg, var(--blue), var(--light-blue));
+    --orange: #FFA500;
+    --light-orange: #FFB841;
+    --gradient: linear-gradient(45deg, var(--orange), var(--light-orange));
     --box-shadow: 0.5rem 0.24rem rgba(0,0,0,0.5);
 }
 

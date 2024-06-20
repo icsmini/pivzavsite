@@ -14,12 +14,12 @@ header {
 
 header .logo {
     font-size: 3rem;
-    color: var(--blue);
+    color: var(--orange);
     transition: 0.5s;
 }
 
 header .logo span {
-    color: var(--light-blue);
+    color: var(--light-orange);
 }
 
 header .logo:hover {
@@ -29,13 +29,13 @@ header .logo:hover {
 header .navbar a {
     font-size: 1.7rem;
     margin-left: 2rem;
-    color: var(--blue);
+    color: var(--orange);
     transition: 0.5s;
     cursor: pointer;
 }
 
 header .navbar a:hover {
-    color: var(--light-blue);
+    color: var(--light-orange);
 }
 
 header .header-checkbox {

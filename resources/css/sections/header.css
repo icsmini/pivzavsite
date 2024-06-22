@@ -90,3 +90,9 @@ header label {
         opacity: 1;
     }
 }
+
+@media (maxwidth: 320px) {
+    html {
+        font-size: 40%;
+    }
+}

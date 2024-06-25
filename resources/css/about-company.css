@@ -32,7 +32,9 @@ section {
     padding: 1rem 0;
 }
 
-
+hr {
+    box-shadow: var(--box-shadow);
+}
 
 /* Media Queries */
 @media (max-width: 880px) {

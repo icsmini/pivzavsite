@@ -59,7 +59,7 @@ header label {
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1095px) {
     header label {
         visibility: visible;
         opacity: 1;

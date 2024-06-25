@@ -32,8 +32,33 @@ section {
     padding: 1rem 0;
 }
 
-hr {
-    box-shadow: var(--box-shadow);
+/* Story block */
+
+.story {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.5rem;
+}
+
+.story .story-img {
+    width: 60%;
+    height: 33%;
+}
+
+.story .story-img img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.story .story-text {
+    width: 40%;
+    height: 33%;
+}
+
+.story .story-text p {
+    font-family: sans-serif;
+    font-size: 1.8rem;
 }
 
 /* Media Queries */

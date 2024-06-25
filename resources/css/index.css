@@ -56,13 +56,13 @@ section {
 }
 
 .geo .map {
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 5rem;
 }
 
 .map-size {
     width: 1105px;
     height: 665px;
+    border: 0;
 }
 
 /* Media Queries */

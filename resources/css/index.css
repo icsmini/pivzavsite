@@ -49,6 +49,22 @@ section {
     transform: scale(1.2);
 }
 
+.geo h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.geo .map {
+    align-items: center;
+    justify-content: center;
+}
+
+.map-size {
+    width: 1105px;
+    height: 665px;
+}
+
 /* Media Queries */
 @media (max-width: 880px) {
     .home {
@@ -71,6 +87,25 @@ section {
     .home .content .btn {
         margin-bottom: 3rem;
     }
+
+    .map-size {
+        height: 370px;
+        width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    .map-size {
+        height: 370px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 470px) {
+    .map-size {
+        height: 370px;
+        width: 400px;
+    }
 }
 
 /* animations */
@@ -83,4 +118,3 @@ section {
         transform: translateY(-3.5rem);
     }
 }
-

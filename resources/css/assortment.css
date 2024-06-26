@@ -1,0 +1,33 @@
+.assortment {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .product-grid {
+        .product-card {
+            padding-left: 3rem;
+            padding-bottom: 2.5rem;
+            border: 5px solid black;
+
+            .image {
+
+            }
+
+            .title {
+
+            }
+
+            .product-footer {
+
+            }
+        }
+    }
+
+    .commentary {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        color: darkgray;
+    }
+}

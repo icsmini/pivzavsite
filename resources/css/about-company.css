@@ -159,7 +159,7 @@ section {
             border: 5px solid var(--orange);
 
             h1 {
-                font-size: 4rem;
+                font-size: 5rem;
                 color: var(--orange);
                 text-transform: uppercase;
 
@@ -195,7 +195,7 @@ section {
                     outline: none;
                 }
 
-                .name {
+                .name, .message {
                     width: 100%;
                 }
 
@@ -205,36 +205,6 @@ section {
 
                 .phone {
                     width: 290px;
-                }
-
-                .text-area {
-                    margin-top: 65px;
-                    border: 1px solid var(--orange);
-                    border-radius: 13px;
-                    padding: 20px 25px;
-                    display: flex;
-                    flex-direction: column;
-                }
-
-                .message {
-                    font-size: 24px;
-                    color: gray;
-                }
-
-                textarea {
-                    margin-top: 20px;
-                    background: transparent;
-                    border: none;
-                    font-size: 24px;
-                    color: #fff;
-                }
-
-                .textarea:focus::placeholder {
-                    color: darkslategray;
-                }
-
-                .textarea:focus {
-                    outline: none;
                 }
 
                 .send {

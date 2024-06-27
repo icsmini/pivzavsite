@@ -1,95 +1,88 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <title>Ассортимент</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-        <link rel="icon" type="image/png" sizes="256x256" href="resources/images/logo.png"/>
-        <link rel="stylesheet" href="resources/css/assortment.css">
-        <link rel="stylesheet" href="style.css">
+<head>
+    <title>Ассортимент</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="256x256" href="resources/images/logo.png"/>
+    <link rel="stylesheet" href="resources/css/assortment.css">
+    <link rel="stylesheet" href="style.css">
 
-        <!-- For header -->
-        <link rel="stylesheet" href="resources/css/sections/header.css">
-        <script src="https://kit.fontawesome.com/1fec4a1d0b.js" crossorigin="anonymous"></script>
+    <!-- For header -->
+    <link rel="stylesheet" href="resources/css/sections/header.css">
+    <script src="https://kit.fontawesome.com/1fec4a1d0b.js" crossorigin="anonymous"></script>
 
-        <script src="resources/js/select.js"></script>
+    <script src="resources/js/select.js"></script>
 
-        <!-- For footer -->
-        <link rel="stylesheet" href="resources/css/sections/footer.css">
+    <!-- For footer -->
+    <link rel="stylesheet" href="resources/css/sections/footer.css">
+      
+</head>
+<body>
+  <!-- header section -->
+
+  <header>
+      <a href="index.html" class="logo">
+          <span>
+              Южная
+          </span>
+          Бавария
+      </a>
+
+      <input type="checkbox" name="menu" id="header-menu" class="header-checkbox">
+      
+      <label for="header-menu">
+          <i class="fas fa-bars"></i>
+      </label>
+
+      <nav class="navbar">
+          <a href="index.html">Главная</a>
+          <a href="about-company.html">О компании</a>
+          <a href="assortment.html">Ассортимент</a>
+          <a href="manufacture.html">Производство</a>
+      </nav>
+  </header>
+
+  <!-- header section -->
+
+  <!-- assortmetn section -->
+
+  <section class="product-cards">
+    <div class="container">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="" alt="">
+        </div>
+
+        <div class="title">
+          <h3>Лёгкое светлое</h3>
+          <br>
+          <h4>Фильтрованное</h4>
+        </div>
         
-    </head>
-    <body>
-        <!-- header section -->
+        <div class="describe">
 
-        <header>
-            <a href="index.html" class="logo">
-                <span>
-                    Южная
-                </span>
-                Бавария
-            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+    
 
-            <input type="checkbox" name="menu" id="header-menu" class="header-checkbox">
-            
-            <label for="header-menu">
-                <i class="fas fa-bars"></i>
-            </label>
+  <!-- assortmetn section -->  
 
-            <nav class="navbar">
-                <a href="index.html">Главная</a>
-                <a href="about-company.html">О компании</a>
-                <a href="assortment.html">Ассортимент</a>
-                <a href="manufacture.html">Производство</a>
-            </nav>
-        </header>
+  <!-- footer section -->
 
-        <!-- header section -->
+  <footer>
+      <div class="footer-content">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about-company.html">О компании</a></li>
+          <li><a href="manufacture.html">Производство</a></li>
+          <li><a href="assortment.html">Ассортимент</a></li>
+        </ul>
+        <p class="copyright">© Южная Бавария</p>
+      </div>
+  </footer>          
 
-        <!-- assortmetn section -->
-
-        <section class="product-cards">
-            <div class="container">
-              <h2 class="section-title">Наш ассортимент</h2>
-              <div class="product-grid">
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="resources/images/assortment/light-beer.webp" alt="Товар 1">
-                  </div>
-                  <h3 class="product-title">Товар 1</h3>
-                  <p class="product-description">Краткое описание товара 1</p>
-                  <div class="product-price">99.99 руб.</div>
-                  <a href="#" class="btn">Добавить в корзину</a>
-                </div>
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="product2.jpg" alt="Товар 2">
-                  </div>
-                  <h3 class="product-title">Товар 2</h3>
-                  <p class="product-description">Краткое описание товара 2</p>
-                  <div class="product-price">149.99 руб.</div>
-                  <a href="#" class="btn">Добавить в корзину</a>
-                </div>
-                <!-- Добавьте сюда больше карточек товаров -->
-              </div>
-            </div>
-          </section>
-          
-
-        <!-- assortmetn section -->  
-
-        <!-- footer section -->
-
-        <footer>
-            <div class="footer-content">
-              <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about-company.html">О компании</a></li>
-                <li><a href="manufacture.html">Производство</a></li>
-                <li><a href="assortment.html">Ассортимент</a></li>
-              </ul>
-              <p class="copyright">© Южная Бавария</p>
-            </div>
-        </footer>          
-
-        <!-- footer section -->
-    </body>
+  <!-- footer section -->
+</body>
 </html>

@@ -13,6 +13,9 @@
 
         <!-- For footer -->
         <link rel="stylesheet" href="resources/css/sections/footer.css">
+
+        <!-- For form -->
+        <script src="resources/js/send.js"></script>
         
     </head>
     <body>
@@ -136,15 +139,15 @@
                 <div class="form">
                     <h1>Есть вопросы? Задавайте!</h1>
                     <div class="data-block">
-                        <input type="text" class="name" placeholder="Имя">
-                        <input type="text" class="mail" placeholder="Email">
-                        <input type="text" class="phone" placeholder="Телефон">
+                        <input type="text" class="name" id="name" placeholder="Имя">
+                        <input type="text" class="mail" id="mail" placeholder="Email">
+                        <input type="text" class="phone" id="phone" placeholder="Телефон">
                         <input type="text" class="message" name="message" id="message" placeholder="Введите сообщение...">
                     </div>
 
-                    <div class="send">
+                    <a href="#" class="gradient-button" onclick="send();">
                         Отправить
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
